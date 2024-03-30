@@ -1,0 +1,1 @@
+(()=>{"use strict";!function(){const e=document.querySelector("#image-container"),t=document.createElement("img");t.src="https://placehold.co/400",e.appendChild(t),document.querySelector(".image1").classList.add("lighted-ball")}()})();
