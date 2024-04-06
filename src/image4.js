@@ -21,5 +21,14 @@ function dispayImage4(){
     imageContainer.removeChild(image1);
     dispayImage5()
 })
+function nextImage(){
+    const image1Ball = document.querySelector(".image4");
+    image1Ball.classList.remove("lighted-ball");
+    imageContainer.removeChild(image1);
+    dispayImage5();
+}
+setTimeout(() => {
+    nextImage();
+  }, "3000");
 }
 export default dispayImage4
